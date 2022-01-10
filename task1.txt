@@ -1,0 +1,48 @@
+Первое ДЗ 
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я  
+pwd
+2) Создать папку 
+mkdir folder1
+3) Зайти в папку
+cd folder1
+4) Создать 3 папки 
+mkdir folder2  folder3 folder4
+5) Зайти в любую папку 
+cd folder4 
+6) Создать 5 файлов (3 txt, 2 json)       
+cat > file1.txt   
+cat > file2.txt   
+cat > file3.txt                  
+cat > file4.json    
+cat > file5.json
+7) Создать 3 папки     
+mkdir folder5 folder6 folder7  
+8. Вывести список содержимого папки   
+ls -la 
+9) + Открыть любой txt файл  
+nano file1.txt
+10) + написать туда что-нибудь, любой текст.
+11) + сохранить и выйти. 
+ctrl + x 
+12) Выйти из папки на уровень выше  
+cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv ./folder4/file1.txt ./        
+mv ./folder4/file2.txt ./
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. 
+cp ./folder4/file3.txt ./      
+cp ./folder4/file4.json ./
+15) Найти файл по имени  
+find file1.txt
+16) просмотреть содержимое в реальном времени (команда grep).
+tail -f file1.txt | grep world
+17) вывести несколько первых строк из текстового файла  
+head -n3 file1.txt
+18) вывести несколько последних строк из текстового файла  
+tail -n5 file1.txt
+19) просмотреть содержимое длинного файла (команда less). 
+less file1.txt
+20) вывести дату и время 
+date
